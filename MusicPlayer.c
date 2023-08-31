@@ -13,8 +13,9 @@ int main()
     
     //storing audio data using waveform
     ma_waveform waveform;
-    //initializing waveform with song
-    char *song_path="Starboy.mp3";
+    //initializing waveform with song 
+    char *song_path="Starboy.mp3"; 
+    //the song must be on the same directory as the program
     ma_waveform_init_file(&waveform,song_path);
 
     //writing audio data to play
